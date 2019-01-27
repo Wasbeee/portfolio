@@ -1,0 +1,310 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  #background: grey;#
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url(https://pp.userapi.com/c824700/v824700383/11a9cf/VCnlD7_UhVE.jpg);
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+.menu-button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 58px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url(https://wmpics.pics/di-KXEM.jpg) no-repeat  right bottom ;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o {
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card__image {
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.landing-page {
+  background: url("https://www.brightedge.com/sites/default/files/landing%20page%20content%20optimization.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sale1 {
+  background: url(https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/ee/2c/64/ee2c64a2-6b92-f20d-2281-5e860eb3cfd2/source/1200x630bb.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sale2 {
+  background: url(https://www.easystorehosting.com/wp-content/uploads/2016/06/Create-online-store-with-eBay-listings.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sale3 {
+  background: url(https://yt3.ggpht.com/a-/AAuE7mBU9ze3FwdIZzRIhNqI5i2fY9YQntSxNhneyw=s900-mo-c-c0xffffffff-rj-k-no) center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.log1 {
+  background: url(https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/44/72/57/447257ac-38b7-1405-79e0-8d60aa7932ff/source/1200x630bb.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.log2 {
+  background: url(http://www.vector-logo.net/logo_preview/eps/c/Computerra.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cinema_online {
+  background: url(https://horoshie-ludi.ru/upload/iblock/20a/ivi.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cinema1 {
+  background: url(http://cinemaplex.ru/wp-content/uploads/2014/02/logo-karo.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cinema2 {
+  background: url(https://tverigrad.ru/wp-content/uploads/2016/04/5.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-card__info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  font-style: 16px;
+}
+.about {
+  margin-bottom: 100px;
+}
+.about .container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-description {
+  width: 470px; 
+}
+.about-image { 
+  width: 540px;
+  max-height: 600px;
+  margin: left;
+}
+.about-name {
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #2b2a2c;
+  font-weight: 600;
+}
+.about-text {
+  color: #717072;
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-right: 99px;
+  line-height: 24px;
+}
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e;
+    text-decoration: none;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+@media (max-width: 1200px) {
+  .container {
+    widht: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 1200px) {
+    .container {
+      widht: 760px;
+    }
+  }
+    .project-card {
+      width: 48%;
+    }
+  @media (max-width: 768px) {
+    .description_small {
+      font-size: 10px;
+    }
+    .menu-list {
+      display: none;
+    }
+    .hero {
+      padding-bottom: 550px;
+      padding-top: 30px;
+    }
+   .container {
+      widht: 95%;
+    }
+  .project-card {
+      width: 95%;
+      margin: 30px auto;
